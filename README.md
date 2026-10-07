@@ -2,6 +2,8 @@
   <h1>DARLA NOTA</h1>
 </div>
 
+---
+
 # 1. Visión general
 ## 1.1. Descripción
 ## 1.2. Pilares de diseño
