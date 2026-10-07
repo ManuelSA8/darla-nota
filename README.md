@@ -49,16 +49,16 @@ Posiblemente, exista un final en el caso de que el jugador se mantenga vivo much
 # 3. Mecánicas
 ## 3.1. Escritorio de Darla Nota
 Es la zona de trabajo principal de Darla Nota. Desde aquí es donde corrige los exámenes de los alumnos.
-# 3.1.1. Silla de profesora
+### 3.1.1. Silla de profesora
 Pinchando en la silla de la profesora, Darla Nota se sienta en su escritorio, lo que le hace incapaz de moverse hasta que se levante pulsando un botón. Esto hace que sea más simple de controlar las cosas del escritorio.
 
-# 3.1.2. Exámenes
+### 3.1.2. Exámenes
 Cada examen viene con preguntas y respuestas aleatorizadas de una lista predeterminada. Todos los puntos conseguibles en un exámen suman 10, y los exámenes son de distintas asignaturas, siendo del color de la asignatura asignada:
  -(DEFINIR ASIGNATURAS)
 
 En la parte superior muestra el nombre del alumno y a la derecha se puede introducir la nota sacada con botones de + y -. Debajo del exámen hay varías preguntas que se pueden marcar cómo correctas o incorrectas, sumando automáticamente la nota arriba, pero se puede cambiar con los botones antes mencionados. Abajo del todo, hay botones para navegar entre las hojas (en caso de haber más de una), y en la parte superior derecha un botón para finalizar la corrección y entregar el examen.
 
-# 3.1.3. Hojas de soluciones
+### 3.1.3. Hojas de soluciones
 En tu cajón se encuentran unas carpetas (por colores) con el temario de cada asignatura. Pinchar en una carpeta la hace aparecer en tu mesa. Puedes navegar entre las hojas para encontrar la información que buscas.
 Todas las respuestas tienen una solución objetivamente correcta o incorrecta, basándose en la información en las carpetas.
 
