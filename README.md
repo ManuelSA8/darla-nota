@@ -65,6 +65,19 @@ En la parte superior muestra el nombre del alumno y a la derecha se puede introd
 En tu cajón se encuentran unas carpetas (por colores) con el temario de cada asignatura. Pinchar en una carpeta la hace aparecer en tu mesa. Puedes navegar entre las hojas para encontrar la información que buscas.
 Todas las respuestas tienen una solución objetivamente correcta o incorrecta, basándose en la información en las carpetas.
 
+### 3.1.4. Pila de exámenes
+La pila de exámenes se va reduciendo o ampliando dependiendo de los exámenes que quedan por corregir. Se puede distinguir el color de cada exámen en la lista para saber la asignatura, pero inicialmente nada más. Al principio, la máquina ordenadora siempre te entrega el último examen de la lista, es decir, el más antiguo.
+
+## 3.2. Alumnos
+En el aula entrarán tantos alumnos como sillas libres. Cada alumno tendrá sus estadísticas propias que determinará su comportamiento y respuestas de los exámenes.
+
+Cuando un alumno no ha entregado su examen, entrará en modo “**Exámen**” en donde tardará un tiempo (determinado por las estadísticas del estudiante) en terminarlo y colocarlo en la lista. Una vez hecho esto, el alumno entrará en modo “**Espera**” donde tendrá posibilidades de hacer distintas acciones, como por ejemplo pelearse, dormirse, preguntar a la profesora, etc. Si estas acciones generan caos en el aula, y tienden a hacerlo, será la misión del jugador detenerlas lo antes posible, o correrá el riesgo de que afecte demasiado a su reputación. Para ello, las misiones se detendrán interactuando con los alumnos o haciendo ciertos minijuegos. Tras terminar una acción, tendrá un pequeño *cooldown* antes de poder hacer otra acción.
+
+El alumno seguirá en modo “**Espera**” hasta que su exámen sea corregido, entonces entrará en modo “**Lectura**”, y tardará unos segundos en leer y comprobar el examen. Tras finalizar el modo lectura tiene tres opciones dependiendo del examen y del alumno:
+**Modo “Acción”:** Depende de la nota y del alumno específico, pudiendo enfadarse con la profesora, o actuar contra otros alumnos. Es el caso más raro, pero no poco frecuente. Tras esto, entrará de nuevo en el modo “**Exámen**” o se irá del aula.
+**Modo “Celebrar”:** En caso de aprobar, y no hacer una acción, el alumno simplemente celebrará durante unos segundos antes de entrar nuevamente en el modo “**Exámen**”.
+**Modo “Suspenso”:** No hace ninguna acción, pero al no haber aprobado, el alumno se va del aula. Tras un rato, es sustituido por otro.
+
 
 # 4. Intefaz
 ## 4.1. Controles y plataformas
