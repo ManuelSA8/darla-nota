@@ -1,5 +1,7 @@
 <div align="center">
   <h1>DARLA NOTA</h1>
+  <img width="400" height="400" alt="Darla" src="https://github.com/user-attachments/assets/b5e85b05-82c9-496c-a040-06fd4a09d793" />
+  <i>"La inigualable Darla Nota"</i>
 </div>
 
 ---
