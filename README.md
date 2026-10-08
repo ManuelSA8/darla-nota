@@ -78,14 +78,59 @@ El alumno seguirá en modo “**Espera**” hasta que su exámen sea corregido, 
 **Modo “Celebrar”:** En caso de aprobar, y no hacer una acción, el alumno simplemente celebrará durante unos segundos antes de entrar nuevamente en el modo “**Exámen**”.
 **Modo “Suspenso”:** No hace ninguna acción, pero al no haber aprobado, el alumno se va del aula. Tras un rato, es sustituido por otro.
 
-## 3.3 Reputación
-La reputación es lo que determina la calidad de tu trabajo como profesora.  Si tu reputación cae demasiado bajo, te despiden y pierdes tu trabajo, por lo que la partida actual acabará. Tu reputación depende principalmente del cumplimiento de objetivos, de mantener el orden en clase y de aprobar los exámenes correctos. También se podrá ver modificada por habilidades y modificadores que el jugador compre durante la partida. 
+### 3.2.1. Estadísticas de alumnos
+Al generar un alumno nuevo, el juego aleatoriza las siguientes estadíticas:
+- **Concentración:** El tiempo que tardan en finalizar el examen (cuánto más alta, más rápido).
+- **Conducta:** Controla la probabilidad de que realice eventos (muy baja equivale a pocos eventos).
+- **Capacidad:** Determina la nota que tiende a sacar en los exámenes.
+- **Notoriedad:** Cantidad que afectan sus acciones a tu reputación.
+- **Insistencia:** La dificultad que tiene el jugador de finalizar una acción (cuanto más alta, más complicado). *Está determinada por el **grupo**, no por el **tipo** del alumno*
 
-### 3.3.1 Superintendente
-El director es quien te contrata. Tu reputación depende de lo que el opine de ti. 
-Cada x tiempo (o en momentos concretos de la partida), el director entrará, hará una valoración de tu trabajo. Además, si no te despide, te dará una lista de objetivos (entre 2 y 5). El cumplir o no cumplir con los objetivos afectará a tu reputación. 
+### 3.2.2. Tipos de alumnos
+Las estadísticas del alumno determinan su tipo, lo cual afecta a su apariencia y a las acciones que tiende a tomar:
+| **Tipo** | **Descripción** | **Acciones más frecuentes** |
+| --------- | --------- | --------- | 
+| Genérico | Estadísticas que no cumplen ninguno de los siguientes casos. | Todas |
+| Empollón | Alta capacidad y concentración. | Levantar la mano |
+| Revoltoso | Alta conducta. | Hacer ruido |
+| Violento | Alta conducta y notoriedad. | Pelearse |
+| Lento | Baja capacidad y concentración. | Dormirse |
 
 
+### 3.2.3. Grupos de alumnos
+A medida que avance la partida, irán apareciendo distintos grupos de estudiantes. Esto afectará a las estadísticas, con ciertos modificadores de cada grupo, y a sus acciones disponibles (por ejemplo, un Niño podrá hacer cosas como dormirse en clase, mientras que un Superviviente puede plantar un campamento en el aula).
+Al principio de la partida comienzan con solo **Niños**, como nivel más sencillo, pero luego comienzan también a llegar **Adolescentes** y luego **Universitarios**. Tras eso, irán entrando aleatoriamente otros tipos de alumnos.
+
+| **Grupo** | **Descripción** | **Modificadores** |
+| --------- | --------- | --------- |
+| Niños | Surgen durante la primera fase del juego para que el jugador se prepare. | Alumnos iniciales. Insistencia baja. |
+| Adolescentes | Presentan el primer avance de dificultad. | Alumnos siguientes. Insistencia media. |
+| Universitarios | Último paso de la progresión “normal”. A partir de aquí comienzan a aparecer sin orden. | Alumnos avanzados. Insistencia moderada. |
+| Minorías | Aparecen durante todo el juego pero con menos posibilidad. | Alumnos con estadísticas exageradas. Insistencia media. |
+| Robots | Su cerebro son Inteligencias Artificiales, por lo que no son del todo fiables. | Alumnos con alta conducta y capacidad alta o baja. Insistencia baja. |
+| Alienígenas | Han llegado de otro planeta escuchando las leyendas de Darla Nota. | Alumnos con alta capacidad, notoriedad y conducta. Insistencia alta. |
+| Supervivientes | El mundo se ha ido a la mierda, solo quedan estos supervivientes. | Alumnos con alta conducta y baja notoriedad. Insistencia alta. |
+| Demonios | Son negativos para el aula, pero cuantos más tengas, más probabilidad hay de que atraigana ángeles. | Alumnos con alta conducta y notoriedad. Insistencia muy alta. |
+| Ángeles | Toda profesora querría tenerlos en su aula… siempre y cuando no actuen… | Alumnos con alta capacidad, concentración y baja conducta, pero con MUCHA notoriedad. Insistencia muy alta. |
+
+## 3.3. Reputación
+La reputación es lo que determina la calidad de tu trabajo como profesora.  Si tu reputación cae demasiado bajo, te despiden y acaba la partida. Tu reputación depende principalmente del cumplimiento de objetivos, de mantener el orden en clase y de aprobar los exámenes correctos. También se podrá ver modificada por la nota media que saquen tus alumnos, habilidades y modificadores que el jugador compre durante la partida. 
+
+### 3.3.1. Superintendente
+Es quien te contrata. Tu reputación depende de lo que él opine de ti. 
+Cada X tiempo (o en momentos concretos de la partida), el superintendente entrará y hará una valoración de tu trabajo. Además, si no te despide, te dará una lista de objetivos. El cumplir o no cumplir con los objetivos afectará a tu reputación de forma destacable. 
+
+## 3.4. Movimiento y apuntado
+Cuando el jugador no está sentado en la silla, se puede mover libremente por el aula. Para apuntar, se mueve el ratón y se interactua con un puntero en el centro de la pantalla. Algunas acciones harán que los alumnos también se muevan por el aula, o incluso fuera de esta.
+
+## 3.5. Tienda
+Interactuar con la pizarra te llevará a la sección de la tienda, donde podrás gastar tu sueldo en comprarte complementos de la clase o escritorio. Estos se mantendrán entre partidas.
+
+### 3.5.1. Sueldo
+Darla Nota recibe una cantidad de dinero por el tiempo trabajado. Cumplir los objetivos del superintendente te aumentará el sueldo.
+
+## 3.6. Modificadores
+Cada cierto tiempo, el juego se pausará y se le presentarán al jugador 3 posibles modificadores. El jugador podrá elegir uno que tome efecto durante el resto de la partida.
 
 # 4. Intefaz
 ## 4.1. Controles y plataformas
@@ -103,5 +148,7 @@ Cada x tiempo (o en momentos concretos de la partida), el director entrará, har
 Las principales inspiraciones de nuestro diseño son:
 - **Papers, please:** Por la mécanica de mantenerse en la misma habitación mientras trabajas con documentos.
 - **Smile for me:** Por la apariencia de espacios 3D con modelos 2D dibujados a mano para los personajes.
+- **Vampire Survivor:** Por los modificadores aleatorios.
+- **Hades:** Por la progresión *rogue like y aleatoriedad de sus encuentros.
 
 ---
