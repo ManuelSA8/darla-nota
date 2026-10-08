@@ -78,6 +78,14 @@ El alumno seguirá en modo “**Espera**” hasta que su exámen sea corregido, 
 **Modo “Celebrar”:** En caso de aprobar, y no hacer una acción, el alumno simplemente celebrará durante unos segundos antes de entrar nuevamente en el modo “**Exámen**”.
 **Modo “Suspenso”:** No hace ninguna acción, pero al no haber aprobado, el alumno se va del aula. Tras un rato, es sustituido por otro.
 
+## 3.3 Reputación
+La reputación es lo que determina la calidad de tu trabajo como profesora.  Si tu reputación cae demasiado bajo, te despiden y pierdes tu trabajo, por lo que la partida actual acabará. Tu reputación depende principalmente del cumplimiento de objetivos, de mantener el orden en clase y de aprobar los exámenes correctos. También se podrá ver modificada por habilidades y modificadores que el jugador compre durante la partida. 
+
+### 3.3.1 Superintendente
+El director es quien te contrata. Tu reputación depende de lo que el opine de ti. 
+Cada x tiempo (o en momentos concretos de la partida), el director entrará, hará una valoración de tu trabajo. Además, si no te despide, te dará una lista de objetivos (entre 2 y 5). El cumplir o no cumplir con los objetivos afectará a tu reputación. 
+
+
 
 # 4. Intefaz
 ## 4.1. Controles y plataformas
