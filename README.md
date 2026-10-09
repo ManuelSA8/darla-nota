@@ -129,8 +129,7 @@ Interactuar con la pizarra te llevará a la sección de la tienda, donde podrás
 ### 3.5.1. Sueldo
 Darla Nota recibe una cantidad de dinero por el tiempo trabajado. Cumplir los objetivos del superintendente te aumentará el sueldo.
 
-## 3.6. Modificadores
-Cada cierto tiempo, el juego se pausará y se le presentarán al jugador 3 posibles modificadores. El jugador podrá elegir uno que tome efecto durante el resto de la partida.
+
 
 # 4. Intefaz
 ## 4.1. Controles y plataformas
